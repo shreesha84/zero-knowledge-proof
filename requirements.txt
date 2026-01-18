@@ -2,6 +2,3 @@ ezkl
 fastapi
 torch
 onnx
-asyncio
-shutil
-sys
