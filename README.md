@@ -71,6 +71,13 @@ pip install ezkl
 ---
 
 ## One-Command Setup (Generates everything)
+Ensure rustc and cargo are installed in the environment in which you are running the code
+```bash
+sudo apt install cargo
+```
+```bash
+sudo apt install rustc
+```
 
 ### Note for WSL Users : Run the following code before running the setup
 
@@ -86,7 +93,10 @@ dos2unix setup_ezkl.sh
 ```bash
 bash scripts/setup_ezkl.sh
 ```
-
+*If you get ezkl not installed, run this command*
+```bash
+curl https://raw.githubusercontent.com/zkonduit/ezkl/main/install_ezkl_cli.sh | bash
+```
 This will automatically:
 
 * generate a large ONNX model
